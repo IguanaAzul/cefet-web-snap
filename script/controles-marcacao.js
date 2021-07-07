@@ -8,7 +8,7 @@ let altura_controle_marcacao = document.querySelector('#altura-da-marcacao')
 let titulo_controle_marcacao = document.querySelector('#titulo-da-marcacao')
 let conteudo_controle_marcacao = document.querySelector('#conteudo-da-marcacao')
 let cor_controle_marcacao = document.querySelector('#cor-da-marcacao')
-let formato_controle_marcacao = document.querySelectorAll('input[name="formato-da-marcacao"]')
+let formato_controle_marcacao = document.querySelectorAll('input[type="radio"]')
 let checkbox_retangular_controle_marcacao = formato_controle_marcacao[0]
 let checkbox_oval_controle_marcacao = formato_controle_marcacao[1]
 
